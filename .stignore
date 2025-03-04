@@ -1,0 +1,5 @@
+!common_css/*
+!phoneContent/**/*.html
+!phoneContent/**/*.css
+!phoneContent/**/*.js
+*
