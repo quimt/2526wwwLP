@@ -276,12 +276,12 @@
 }
 
 .checklist-unchecked {
-  list-style-image: url("../images/objectives/checkbox-unchecked.svg");
+  list-style-image: url("../../../images/objectives/checkbox-unchecked.svg");
   list-style-position: inside;
 }
 
 .checklist-checked {
-  list-style-image: url("../images/objectives/checkbox-checked.svg");
+  list-style-image: url("../../../images/objectives/checkbox-checked.svg");
   list-style-position: inside;
 }
 
