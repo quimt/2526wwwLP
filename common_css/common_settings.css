@@ -36,6 +36,7 @@
 .t-table th,
 .t-table td {
     border-right: solid var(--ts-color-heading);
+    text-align: center;
 }
 
 .t-table.horizontal th,
@@ -51,7 +52,8 @@
 }
 
 :root {
-    --screen-page-height: em;
+    font-size: 2vw;
+    --screen-page-height: rem;
 }
 
 @media print {
@@ -66,7 +68,7 @@
 
 @media screen {
     :root, html {
-        --screen-page-height: em;
+        --screen-page-height: rem;
     }
     .no-screen {
         display: none;
