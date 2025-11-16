@@ -1,0 +1,51 @@
+@media screen {
+    * {
+        /* Steel theme: muted metallic grays/blues with high contrast */
+        --ts-color-heading: #23282d;       /* dark steel-gray for headings */
+        --ts-color-body: #6a7a8c;          /* medium steel-blue for body text */
+        --ts-color-background: #e3e7eb;    /* pale cool-gray for background */
+        --ts-color-link: #3e83c8;          /* blue steel for links */
+        --ts-color-subtle: #bfc6cf;        /* subtle lighter steel-gray elements */
+        --ts-color-border: #a6b2be;        /* border in silvery steel */
+        --ts-color-muted: #818c99;         /* muted steel for less important text */
+        --ts-color-standout: #314d66;      /* standout (accent) in dark metallic blue */
+        --ts-font-weight-regular: 500;
+        --ts-font-weight-bold: 900;
+        data-typesettings: "sans-serif";
+    }
+}
+
+@media screen {
+    * {
+        /* Gold theme: rich golds/yellows with similar high contrast as steel */
+        --ts-color-heading: #6d5010;        /* deep golden-brown for headings */
+        --ts-color-body: #b48e1f;           /* warm gold for body text */
+        --ts-color-background: #faf6e4;     /* pale gold-cream for background */
+        --ts-color-link: #c09b27;           /* bright gold for links */
+        --ts-color-subtle: #f3e3b4;         /* subtle lighter gold for elements */
+        --ts-color-border: #e3c874;         /* border in soft gold */
+        --ts-color-muted: #93844a;          /* muted bronze for less important text */
+        --ts-color-standout: #ad8616;       /* standout (accent) in rich gold */
+        --ts-font-weight-regular: 500;
+        --ts-font-weight-bold: 900;
+        data-typesettings: "sans-serif";
+    }
+}
+
+
+@media print {
+    * {
+        --ts-color-heading: black;
+        --ts-color-body: black;
+        --ts-color-background: white;
+        --ts-color-link: #333333;
+        --ts-color-subtle #eeeeee;
+        --ts-color-border: #cdcdcd;
+        --ts-color-muted: #717171;
+        --ts-color-standout: #d9d9d9;
+        --ts-font-weight-regular: 300;
+        --ts-font-weight-bold: 600;
+        data-typesttings: "sans-serif";
+    }
+}
+

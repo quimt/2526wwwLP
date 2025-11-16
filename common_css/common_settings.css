@@ -8,6 +8,10 @@
     --color-graphite: #6b6b6b;
 }
 
+ul, ol {
+list-style-position: inside; !important
+}
+
 .pbr {
     break-after: page;
 }
@@ -88,6 +92,11 @@
 .katex math * {
     font-family: 'Noto Sans Math' !important;
 }
+
+.math * {
+    font-family: 'Fira Math', cursive;
+}
+
 
 .katex-html * {
     display: none;
@@ -303,4 +312,4 @@ span.tasty {
   padding-right: 0.4em;
 }
 
-}
+
