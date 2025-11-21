@@ -65,19 +65,23 @@ list-style-position: inside; !important
     :root, html {
         --screen-page-height: vh;
     }
-    .no-print {
+    .no-print * {
         display: none;
     }
+    .no-print-render * {
+        visibility: hidden;
+    }
+
     }}
 
 @media screen {
     :root, html {
         --screen-page-height: rem;
     }
-    .no-screen {
+    .no-screen * {
         display: none;
     }
-    .no-screen-render {
+    .no-screen-render * {
         visibility: hidden;
     }
 }

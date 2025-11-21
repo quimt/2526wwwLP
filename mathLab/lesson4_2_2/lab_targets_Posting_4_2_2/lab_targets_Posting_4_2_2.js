@@ -13930,7 +13930,7 @@ var F = {procname: "module Tasks", prev: framePtr, filename: "/home/taq/bSync/we
 framePtr = F;
 F.line = 42;
 F.filename = "Tasks.nim";
-randomize__pureZrandom_u264(159133376n);
+randomize__pureZrandom_u264(1715403812n);
 framePtr = F.prev;
 var F = {procname: "module Tasks", prev: framePtr, filename: "/home/taq/bSync/web/wwwLP/mathLab/lesson4_2_2/Tasks/Tasks.nim", line: 0};
 framePtr = F;
